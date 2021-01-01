@@ -2,7 +2,6 @@
 from URLManager import UrlManager
 from HtmlDownloader import HtmlDownloader
 from HtmlParser import HtmlParser
-
 from DataOutput import DataOutput
 
 

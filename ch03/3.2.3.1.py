@@ -1,11 +1,12 @@
 #coding:utf-8
 '''
 实现一个完整的请求与响应模型:GET
+'''
 import requests
 r = requests.get('http://www.baidu.com')
 print r.content
 
-'''
+
 
 '''
 实现一个完整的请求与响应模型:POST

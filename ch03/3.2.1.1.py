@@ -2,12 +2,13 @@
 
 '''
 最简单的形式
+'''
 import urllib2
 response=urllib2.urlopen('http://www.zhihu.com')
 html=response.read()
 print html
 
-'''
+
 
 '''
 上面对http://www.zhihu.com的请求响应分为两步，一步是请求，一步是响应
